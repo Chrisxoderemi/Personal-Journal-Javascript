@@ -44,7 +44,6 @@ button.addEventListener("click", () => {
     counter++;
     let {title, bodyOfNote} = prompter();
 
-    // call function that creates and displays note using input
-    noteCreator(title, bodyOfNote);
+   noteCreator(title, bodyOfNote);
     pNode.textContent = `you have ${counter + articleLength} note(s)`
 });
