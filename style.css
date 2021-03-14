@@ -19,9 +19,7 @@ h1{
 .fresh{
     color: #E4E4DC;
     font-family: 'Gamja Flower', cursive;
-    font-size: 12px;
-
-    
+    font-size: 12px; 
 }
 body{
     background-color: #fffff2;
@@ -30,6 +28,29 @@ main{
     margin: auto;
     width: 70%;
     font-family: 'Gamja Flower', cursive;
+}
+.Notes{
+    text-align: center;
+}
+button{
+    border: 4px solid #050401;
+    color: white;
+    background-color: #050401;
+    width: 500px;
+    padding: 10px 100px 10px 200px;
+    margin: 8px 0px 5px 300px;
+    box-shadow:3px 3px 0 0 #e4572e ;
+    display: flex;
+}
+.MoreNotes{
+    border: 4px solid #050401;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    box-shadow:3px 3px 0 0 #e4572e ;
+}
+.newNote{
+    display: none;
 }
 .spatulas{
     border: 4px solid #050401;
